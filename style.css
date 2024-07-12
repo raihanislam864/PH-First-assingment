@@ -1,0 +1,299 @@
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.pic{
+    display: flex;
+    margin: 0 auto;
+    
+}
+#upper{
+    height: 513px;
+    background-image: url(assets/Hero-bg.png);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+#upper .upper-content{
+    width: 787px;
+    margin: 0px auto;
+}
+#upper .upper-content .subtitle{
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0%;
+text-align: center;
+margin-bottom: 34px;
+}
+#upper .upper-content .headone{
+    color: rgb(13, 19, 33);
+font-size: 50px;
+font-weight: 800;
+line-height: 68px;
+letter-spacing: 0%;
+margin-bottom: 10px;
+text-align: center;
+}
+.btn{
+padding: 14px 16px 14px 16px;
+border-radius: 8px;
+background: rgb(13, 19, 33);
+color: rgb(255, 255, 255);
+font-family: Azeret Mono;
+font-size: 12px;
+font-weight: 200;
+line-height: 10px;
+letter-spacing: 0%;
+margin-bottom: 12px;
+text-align: center;
+margin-bottom: 34px;
+}
+.btn-container{
+    text-align: center;
+}
+#card-box{
+    width: 890px;
+    margin: 50px auto;
+}
+#card-box .title{
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 18px;
+font-weight: 800;
+line-height: 37px;
+letter-spacing: 0%;
+text-align: center;
+}
+.underline{
+    text-decoration: underline;
+}
+.reasonofhtml{
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0%;
+text-align: center;
+}
+.discription{
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0%;
+text-align: center;
+opacity: 0.7;
+margin-top: 20px;
+
+}
+.card-container{
+    margin-top: 35px;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+.card{
+    max-width: 250px;
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+}
+.deco{
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0%;
+text-align: left;
+}
+.card1{
+    margin: 0 auto;
+    padding: 30px;
+    height: 300px;
+    border-radius: 16px;
+background: rgba(255, 76, 30, 0.05);
+}
+.card2{
+    padding: 30px;
+    border-radius: 16px;
+background: rgba(0, 76, 232, 0.05);
+}
+.card3{
+    padding: 30px;
+    border-radius: 16px;
+ background: rgba(255, 223, 0, 0.05);
+}
+.title1{
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 32px;
+font-weight: 800;
+line-height: 37px;
+letter-spacing: 0%;
+text-align: center;
+}
+.discription1{
+    margin-top: 20px;
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0%;
+text-align: center;
+}
+.line2{
+    border: 100px;
+    margin: 200px;
+    display: flex;
+    justify-content: space-between;
+    color: rgba(13, 19, 33, 0.7);
+    font-family: Azeret Mono;
+    font-size: 24px;
+    font-weight: 100;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.secton img{
+    height: 260px;
+}
+.btn000{
+    /* Frame 7 */
+position: static;
+width: 150px;
+height: 48px;
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 12px 20px 12px 20px;
+
+
+/* Inside Auto Layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+margin: 32px 0px;
+}
+.section p{
+    color: beige;
+}
+.btn2{
+    width: 120px;
+    height: auto 48px;
+}
+.line3{
+    margin: 200px;
+    display: flex;
+    justify-content: space-between;
+    color: rgba(13, 19, 33, 0.7);
+    font-family: Azeret Mono;
+    font-size: 24px;
+    font-weight: 100;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: right;
+}
+.ins{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 37px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-top: 25px;
+}
+.para{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-top: 25px;
+}
+.vid{
+width: 700px;
+height: 250px;
+order: 0;
+align-self: stretch;
+margin: 0 auto;
+display: flex;
+border-radius: 16px;
+}
+#lower{
+    padding: 32px 24px 32px 24px;
+    background-image: url(assets/handshake.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+ margin-top: 100px;
+ width: 1000px;
+height: 150px;
+left: 150px;
+}
+.lower-head{
+    color: rgb(255, 255, 255);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 100;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.lower-para{
+    color: rgb(255, 255, 255);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.inline-form {
+    width: 400px;
+    margin: 0 auto;
+    display: flex;
+   gap: 30px;  
+    flex-direction: center;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 20px 30px 20px 
+    
+}
+span{
+   width: 20px;
+   height: 20px;
+}
+.page-footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+    text-align: start;
+    border-radius: 16px;
+background: rgba(13, 19, 33, 0.03);
+}
+
+.social-icons {
+    display: flex;
+    gap: 10px; 
+    
+}
