@@ -282,18 +282,3 @@ span{
    width: 20px;
    height: 20px;
 }
-.page-footer {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 60px;
-    text-align: start;
-    border-radius: 16px;
-background: rgba(13, 19, 33, 0.03);
-}
-
-.social-icons {
-    display: flex;
-    gap: 10px; 
-    
-}
